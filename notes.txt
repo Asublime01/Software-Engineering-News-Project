@@ -1,0 +1,6 @@
+UL top section class; container__field-links container_lead-plus-headlines-with-images__field-links
+
+Ul bottom section class: container__field-links container_vertical-strip__field-links
+
+
+Overarching html body is div class=zone zone--t-light attr data-collapsed-text = ""

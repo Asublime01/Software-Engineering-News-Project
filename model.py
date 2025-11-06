@@ -38,19 +38,22 @@ nyt_data = responseNYT_parsed["results"]
 
 with open("News.txt", "w") as file:
     for entry in hacker_feed.entries:
-        file.write(f"[{entry.title}, {entry.link}]\n")
+        file.write(f"{entry.title}; {entry.link}")
+        file.write("\n")
     
     for result in nyt_data:
-        file.write(f"[{result['title']}, {result['abstract']}, {result['url']}\n")
+        file.write(f"{result['title']}; {result['abstract']}; {result['url']}")
+        file.write("\n")
        
     for entry in guardian_feed.entries:
-        file.write(f"[{entry.title}, {entry.link}]\n")
+        file.write(f"{entry.title}; {entry.link}")
+        file.write("\n")
 
 
 
 
 
-def send_newsletter():
+def get_newsletter_data():
     with open("News.txt", "r") as file:
         lines = file.readlines()
         lines_chosen = []
@@ -62,17 +65,22 @@ def send_newsletter():
                 continue #Find a new line that hasn't been picked
             else:
                 lines_chosen.append(line_number) #Add that new line to the lines picked list
-                gathered_data.append(chosen_line)
-        
+                gathered_data.append(chosen_line.strip())
+                
+        return gathered_data
         
 
         
 
 def get_random_news():
-    pass
+    with open("News.txt", "r") as file:
+        lines = file.readlines()
+        chosen_line = random.choice(lines)
+        return chosen_line
 
 
-send_newsletter()
+
+
 
 
 

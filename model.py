@@ -1,9 +1,7 @@
 import requests
-from bs4 import BeautifulSoup
 import csv
 import os
 from dotenv import load_dotenv
-import json
 import feedparser
 import random
 
@@ -20,7 +18,7 @@ hacker_news = 'https://hnrss.org/frontpage'
 guardian_response = requests.get(guardian_url, headers=headers)
 guardian_feed = feedparser.parse(guardian_response.text)
 responseNYT = requests.get(nyt_endpoint)
-print(responseNYT)
+
 hacker_response = requests.get(hacker_news, headers=headers)
 hacker_feed = feedparser.parse(hacker_response.text)
 
@@ -78,6 +76,17 @@ def get_random_news():
         chosen_line = random.choice(lines)
         return chosen_line
 
+def get_epic_news():
+    os.system("wget ")
+    with open('news.csv', 'r+') as csvfile:
+            
+        reader = csv.reader(csvfile)
+
+    # Iterate over each row in the CSV file
+        for row in reader:
+            print(row) # Each row is a list of strings
+
+get_epic_news()
 
 
 

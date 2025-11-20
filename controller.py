@@ -6,6 +6,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 import model
 import datetime
+import view
 
 
 
@@ -51,4 +52,4 @@ def send_newsletter():
     except Exception as e:
         print(f"Error sending email: {e}")
 
-send_newsletter()
+view.update_display()

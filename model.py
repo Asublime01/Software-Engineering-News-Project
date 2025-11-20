@@ -74,7 +74,13 @@ def get_random_news():
     with open("News.txt", "r") as file:
         lines = file.readlines()
         chosen_line = random.choice(lines)
-        return chosen_line
+        if chosen_line.count(";") == 2:
+            title, des, url = chosen_line.strip().split(";")
+            return f"{title}: {des}"
+        elif chosen_line.count(";") == 1:
+            title, url = chosen_line.strip().split(";")
+            return title
+        
 
 def get_epic_news():
     os.system("wget ")
@@ -86,7 +92,7 @@ def get_epic_news():
         for row in reader:
             print(row) # Each row is a list of strings
 
-get_epic_news()
+
 
 
 

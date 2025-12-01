@@ -108,7 +108,7 @@ def get_epic_news():
             
     time.sleep(1)
     os.system("rm news.csv")
-    return (f"{data}, " for data in data_list)
+    return "Hello!!"
 
 
 

@@ -72,11 +72,14 @@ def update_display():
             draw = ImageDraw.Draw(master)
             
             #Draw title at the top
-            draw.text((2,0), title_text, font=font_TITLE, fill=(235,119,52))
+            draw.text((2,0), title_text, font=font_TITLE, fill=(0xFFFF8C00))
+            
             
             #Crop scrolling information and paste below title
             crop = scroll_canvas.crop((x,0,x+WIDTH, SCROLL_HEIGHT))
             master.paste(crop, (0,TITLE_HEIGHT))
+            
+            draw.rectangle((0,TITLE_HEIGHT + 2, WIDTH, TITLE_HEIGHT + 2), fill=(0xFF4F9153))
             
             framebuffer[:] = np.asarray(master)
             matrix.show()

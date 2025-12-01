@@ -1,81 +1,80 @@
-GitHut – Programming Languages and GitHub; https://githut.info/
-ArkA – A minimal open video protocol (first MVP demo); https://baconpantsuppercut.github.io/arkA/
-New Glenn Update – Blue Origin; https://www.blueorigin.com/news/new-glenn-upgraded-engines-subcooled-components-drive-enhanced-performance
-Run Docker containers natively in Proxmox 9.1 (OCI images); https://raymii.org/s/tutorials/Finally_run_Docker_containers_natively_in_Proxmox_9.1.html
-Introducing Kagi Assistants; https://blog.kagi.com/kagi-assistants
-New OS aims to provide (some) compatibility with macOS; https://github.com/ravynsoft/ravynos
-CBP is monitoring US drivers and detaining those with suspicious travel patterns; https://apnews.com/article/immigration-border-patrol-surveillance-drivers-ice-trump-9f5d05469ce8c629d6fecf32d32098cd
-Data-at-Rest Encryption in DuckDB; https://duckdb.org/2025/11/19/encryption-in-duckdb
-Mozilla Says It's Finally Done with Two-Faced Onerep; https://krebsonsecurity.com/2025/11/mozilla-says-its-finally-done-with-two-faced-onerep/
-NTSB Preliminary Report – UPS Boeing MD-11F Crash [pdf]; https://www.ntsb.gov/Documents/Prelimiary%20Report%20DCA26MA024.pdf
-The Lions Operating System; https://lionsos.org
-Microsoft makes Zork open-source; https://opensource.microsoft.com/blog/2025/11/20/preserving-code-that-shaped-generations-zork-i-ii-and-iii-go-open-source
-Launch HN: Poly (YC S22) – Cursor for Files; https://news.ycombinator.com/item?id=45995394
-Go Cryptography State of the Union; https://words.filippo.io/2025-state/
-Android and iPhone users can now share files, starting with the Pixel 10; https://blog.google/products/android/quick-share-airdrop/
-Nano Banana Pro; https://blog.google/technology/ai/nano-banana-pro/
-Freer Monads, More Extensible Effects (2015) [pdf]; https://okmij.org/ftp/Haskell/extensible/more.pdf
-Red Alert 2 in web browser; https://chronodivide.com/
-Interactive World History Atlas Since 3000 BC; http://geacron.com/home-en/
-Show HN: F32 – An Extremely Small ESP32 Board; https://github.com/PegorK/f32
+Better Than JSON; https://aloisdeniel.com/blog/better-than-json
+React and Remix Choose Different Futures; https://laconicwit.com/react-and-remix-choose-different-futures/
+Intel could return to Apple computers in 2027; https://www.theverge.com/news/832366/intel-apple-m-chip-low-end-processor
+Durin is a library for reading and writing the Dwarf debugging format; https://github.com/tmcgilchrist/durin
+High-income job losses are cooling housing demand; https://jbrec.com/insights/job-growth-housing-demand-metro-analysis-2026/
+Ghostty compiled to WASM with xterm.js API compatibility; https://github.com/coder/ghostty-web
+Response to "Ruby Is Not a Serious Programming Language"; https://robbyonrails.com/articles/2025/12/01/why-so-serious/
+Better Auth (YC X25) Is Hiring; https://www.ycombinator.com/companies/better-auth/jobs/eKk5nLt-developer-relation-engineer
+ImAnim: Modern animation capabilities to ImGui applications; https://github.com/soufianekhiat/ImAnim
+Ask HN: Who is hiring? (December 2025); https://news.ycombinator.com/item?id=46108941
+Ask HN: Who wants to be hired? (December 2025); https://news.ycombinator.com/item?id=46108940
+DeepSeek-v3.2: Pushing the frontier of open large language models [pdf]; https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf
+Google unkills JPEG XL?; https://tonisagrista.com/blog/2025/google-unkills-jpegxl/
+WordPress plugin quirk resulted in UK Gov OBR Budget leak [pdf]; https://obr.uk/docs/dlm_uploads/01122025-Investigation-into-November-2025-EFO-publication-error.pdf
+The Penicillin Myth; https://www.asimov.press/p/penicillin-myth
+Cartographers Have Been Hiding Covert Illustrations Inside of Switzerland's Maps; https://eyeondesign.aiga.org/for-decades-cartographers-have-been-hiding-covert-illustrations-inside-of-switzerlands-official-maps/
+A vector graphics workstation from the 70s; https://justanotherelectronicsblog.com/?p=1429
+Why xor eax, eax?; https://xania.org/202512/01-xor-eax-eax
+Self-hosting a Matrix server for 5 years; https://yaky.dev/2025-11-30-self-hosting-matrix/
+Games using anti-cheats and their compatibility with GNU/Linux or Wine/Proton; https://areweanticheatyet.com/
+College Students Flock to a New Major: A.I.; At M.I.T., a new program called “artificial intelligence and decision-making” is now the second-most-popular undergraduate major.; https://www.nytimes.com/2025/12/01/technology/college-computer-science-ai-boom.html
+Silicon Valley’s Man in the White House Is Benefiting Himself and His Friends; David Sacks, the Trump administration’s A.I. and crypto czar, has helped formulate policies that aid his Silicon Valley friends and many of his own tech investments.; https://www.nytimes.com/2025/11/30/technology/david-sacks-white-house-profits.html
+The Writer Who Dared Criticize Silicon Valley; Paulina Borsook’s “Cyberselfish,” which offered dire predictions about the tech world’s love for libertarianism, is finding fans. It only took 25 years.; https://www.nytimes.com/2025/11/27/technology/writer-silicon-valley-criticism.html
+Hard Fork’s 50 Most Iconic Technologies of 2025; “You can’t tell the story of 2025 without these icons.”; https://www.nytimes.com/2025/11/28/podcasts/hardfork-iconic-technologies-2025.html
+David Lerner, a Mr. Fix-it of Apple Computers, Dies at 72; He and a partner founded Tekserve, a Manhattan emergency room for frozen hard drives, keyboards, screens and their confounded owners.; https://www.nytimes.com/2025/11/26/technology/personaltech/david-lerner-dead.html
+Take Command of Your Powerful New Smartphone Camera; This year’s high-end models from Apple and Google raise the bar for mobile photography, but users should take the time to learn the settings and features.; https://www.nytimes.com/2025/11/26/technology/personaltech/iphone-google-pixel-smartphone-camera-settings.html
+Fears About A.I. Prompt Talks of Super PACs to Rein In the Industry; As artificial intelligence companies prepare to pour money into the midterm elections, some in the A.I. world are hatching plans of their own to curb the industry’s influence.; https://www.nytimes.com/2025/11/25/us/politics/ai-super-pac-anthropic.html
+The Interview: How Wikipedia Is Responding to the Culture Wars; Attacks against the site are piling up. Its co-founder says, Trust the process.; https://www.nytimes.com/2025/11/25/podcasts/hardfork-the-interview-jimmy-wales.html
+What Is Agentic A.I., and Would You Trust It to Book a Flight?; Companies are racing to develop artificial intelligence tools that can make reservations for flights, hotels and more on your behalf. Here’s what to know.; https://www.nytimes.com/2025/11/25/travel/what-is-agentic-ai-book-flights.html
+A.I. Can Do More of Your Shopping This Holiday Season; New tools and features from retailers and tech companies use artificial intelligence to help people find gifts and make decisions about their shopping lists.; https://www.nytimes.com/2025/11/25/technology/chatgpt-holiday-shopping.html
+I’m a Professor. A.I. Has Changed My Classroom, but Not for the Worse.; My students’ easy access to chatbots forced me to make humanities instruction even more human.; https://www.nytimes.com/2025/11/25/magazine/ai-higher-education-students-teachers.html
+RealPage Agrees to Settle Federal Rent-Collusion Case; The Justice Department had accused the real estate software company of enabling landlords to charge tenants more than free-market rates.; https://www.nytimes.com/2025/11/24/technology/realpage-doj-settlement.html
+An Auto Holy Grail: Motors That Don’t Rely on Chinese Rare Earths; Weary of being captive to geopolitics, car companies are looking for ways to replace powerful rare-earth magnets in electric motors.; https://www.nytimes.com/2025/11/24/business/automakers-rare-earth-minerals-magnets.html
+X Displays Users’ Locations, Fueling Scrutiny Over Political Accounts; Online sleuths quickly found that some accounts posting about U.S. politics, including those in support of the MAGA movement, appeared not to be based in the United States.; https://www.nytimes.com/2025/11/24/us/politics/x-twitter-location-maga-controversy.html
+What OpenAI Did When ChatGPT Users Lost Touch With Reality; In tweaking its chatbot to appeal to more people, OpenAI made it riskier for some of them. Now the company has made its chatbot safer. Will that undermine its quest for growth?; https://www.nytimes.com/2025/11/23/technology/openai-chatgpt-users-risks.html
+An A.I. Toy Bear Speaks of Sex, Knives and Pills, a Consumer Group Warns; The chatter left startled adults unsure whether they heard correctly. Testers warned that interactive toys like this one could allow children to stray into inappropriate exchanges.; https://www.nytimes.com/2025/11/22/us/folotoy-ai-bear-suspended-explicit-advice.html
+Cryptographers Held an Election. They Can’t Decrypt the Results.; A global group of researchers was unable to read the vote tally, after an official lost one of three secret code keys needed to unlock a hyper-secure election system.; https://www.nytimes.com/2025/11/21/world/cryptography-group-lost-election-results.html
+The Fate of Google’s Ad Tech Monopoly Is Now in a Judge’s Hands; A judge queried lawyers about whether a breakup made sense during closing arguments on how to fix the tech giant’s dominance in online advertising.; https://www.nytimes.com/2025/11/21/technology/google-ad-tech-closing.html
+We Asked Roblox’s C.E.O. About Child Safety. It Got Tense.; This week the company announced that it would require users to undergo an A.I.-powered age estimation process in order to chat with others on the platform. Will this change reassure parents?; https://www.nytimes.com/2025/11/21/podcasts/hardfork-roblox-child-safety.html
 The A.I. Boom Has Found Another Gear. Why Can’t People Shake Their Worries?; It is a time of superlatives in the tech industry, with historic profits, stock prices and deal prices. It’s enough to make some people very nervous.; https://www.nytimes.com/2025/11/20/technology/ai-stock-boom-nvidia.html
-To Meld A.I. With Supercomputers, National Labs Are Picking Up the Pace; A.I. has added urgency to the U.S. national laboratories that have been sites of cutting-edge scientific research, leading to deals with tech giants like Nvidia to speed up.; https://www.nytimes.com/2025/11/20/technology/national-laboratories-ai-supercomputers.html
 Trump Elevates Once-Fringe Meme Makers to the Mainstream; Right-wing users have tapped A.I. tools to promote President Trump’s agenda. He took notice.; https://www.nytimes.com/2025/11/20/technology/trump-ai-memes.html
+To Meld A.I. With Supercomputers, National Labs Are Picking Up the Pace; A.I. has added urgency to the U.S. national laboratories that have been sites of cutting-edge scientific research, leading to deals with tech giants like Nvidia to speed up.; https://www.nytimes.com/2025/11/20/technology/national-laboratories-ai-supercomputers.html
 Family Affair: Commerce Secretary’s Sons Cash In on A.I. Frenzy; Howard Lutnick is helping push data center projects. His family companies are profiting from them.; https://www.nytimes.com/2025/11/20/us/politics/howard-lutnick-family-ai.html
 Yann LeCun, a Pioneering A.I. Scientist, Leaves Meta; Dr. LeCun’s departure follows a shake-up in Meta’s artificial intelligence efforts, as Mark Zuckerberg pushes his company to keep up in the tech race.; https://www.nytimes.com/2025/11/19/technology/yann-lecun-ai-scientist-meta.html
 Nvidia’s Profit Jumps 65% to $31.9 Billion. Is It Enough for Wall St.?; The company, which makes the computer chips essential to the artificial intelligence boom, also said revenue in its recent quarter rose to $57 billion.; https://www.nytimes.com/2025/11/19/technology/nvidia-earnings.html
 Saudi Arabia Backs Elon Musk’s xAI With Data Center Deal; Mr. Musk’s xAI will work with the Saudi artificial intelligence company Humain on a new data center, part of Crown Prince Mohammed bin Salman’s effort to diversify his kingdom’s economy.; https://www.nytimes.com/2025/11/19/technology/saudi-arabia-elon-musk-xai.html
 Larry Summers Resigns From OpenAI’s Board; Mr. Summers departed the artificial intelligence company’s board after revelations of his communications with the disgraced financier Jeffrey Epstein.; https://www.nytimes.com/2025/11/19/technology/larry-summers-resigns-from-openais-board.html
 Netherlands Hands Back Control of Chinese-Owned Chipmaker Nexperia; Uncertainty over the availability of the company’s chips, which are used in cars and electronics, had added to concerns of a global shortage.; https://www.nytimes.com/2025/11/19/business/nexperia-netherlands-china-chips.html
-How Trump and Nvidia’s C.E.O. Became Partners on the International Stage; Over the last 10 months, President Trump has become close with Jensen Huang, Nvidia’s chief executive, as the company’s chips have become a tool in trade and peace talks.; https://www.nytimes.com/2025/11/19/technology/trump-nvidia-jensen-huang.html
-U.S. Lends $1 Billion to Three Mile Island Nuclear Project; The Pennsylvania site, shorthand for the dangers of nuclear power after a 1979 meltdown, is set for revival under a deal to power Microsoft data centers.; https://www.nytimes.com/2025/11/19/us/nuclear-power-three-mile-island.html
-Europe’s Chip Dreams Confront Business Realities; European chipmakers need TSMC’s help to grow their own semiconductor supply chain, but the chip giant’s Taiwanese suppliers find Europe a tough place to do business.; https://www.nytimes.com/2025/11/19/technology/europe-tsmc-chips.html
-In the A.I. Race, Chinese Talent Still Drives American Research; Although some Silicon Valley executives paint China as the enemy, Chinese brains continue to play a major role in U.S. research.; https://www.nytimes.com/2025/11/19/technology/ai-research-chinese-talent.html
-Driving an E.V. Across North Dakota? Thank the Standing Rock Tribe.; A tribally owned network of chargers will soon be complete, connecting reservations and bridging a gap in the Midwest.; https://www.nytimes.com/2025/11/18/climate/electic-vehicle-chargers-north-dakota.html
-Technology Is Fast and the Courts Are Slow; Silicon Valley has increasingly pointed at rapid digital changes to blunt government efforts to rein in its power.; https://www.nytimes.com/2025/11/18/technology/meta-google-antitrust-tech.html
-Meta’s Victory Opens the Way for Silicon Valley to Go Deal Shopping; To avoid regulatory scrutiny, big tech companies had steered clear of buying start-ups outright. Meta’s antitrust win may change that thinking.; https://www.nytimes.com/2025/11/18/technology/meta-ruling-silicon-valley-start-ups.html
-Meta Did Not Violate Antitrust Law, Judge Rules; Meta’s acquisitions of Instagram and WhatsApp did not illegally stifle competition in social networking, a judge found, a major win for the tech giant.; https://www.nytimes.com/2025/11/18/technology/meta-antitrust-monopoly-ruling.html
-Google Unveils Gemini 3, With Improved Coding and Search Abilities; The new artificial intelligence model is the second the company has released this year. OpenAI and Anthropic made similar updates a few months ago.; https://www.nytimes.com/2025/11/18/technology/google-gemini-3.html
-Google’s Gemini 3 Is Here: A Special Early Look; Maybe more than other model releases, this one seems to have the attention of Google’s competitors. Will it put the company at the top of the A.I. leaderboard?; https://www.nytimes.com/2025/11/18/podcasts/hardfork-gemini-3.html
-Self-Driving Taxis Are Catching On. Are You Ready?; With the arrival of Amazon’s Zoox robot taxi in San Francisco to compete with Waymo, autonomous services are gaining momentum. But there are pros and cons.; https://www.nytimes.com/2025/11/18/technology/personaltech/zoox-driverless-taxis-san-francisco.html
-Can You Believe the Documentary You’re Watching?; A combination of technological developments and market forces is undermining the trust between viewer and filmmaker. What’s at stake is history itself.; https://www.nytimes.com/2025/11/18/movies/documentary-filmmaking-ai-trust.html
-Europe Begins Rethinking Its Crackdown on Big Tech; European policymakers are crafting changes to scale back and simplify landmark rules for A.I. and data privacy, in a shift from an aggressive regulatory period.; https://www.nytimes.com/2025/11/17/technology/europe-big-tech.html
-We Can Now Track Individual Monarch Butterflies. It’s a Revelation.; Scientists used tiny new sensors to follow the insects on journeys that take thousands of miles to their winter colonies in Mexico.; https://www.nytimes.com/2025/11/17/science/monarch-butterfly-migration-tracking-sensor.html
-Jeff Bezos Creates A.I. Start-Up Where He Will Be Co-Chief Executive; Called Project Prometheus, the company is focusing on artificial intelligence for the engineering and manufacturing of computers, automobiles and spacecraft.; https://www.nytimes.com/2025/11/17/technology/bezos-project-prometheus.html
-How Fraudsters Use Cryptocurrency A.T.M.s to Target Victims; The kiosks, which resemble conventional A.T.M.s and convert cash into virtual currencies, are increasingly under scrutiny as a tool for scammers.; https://www.nytimes.com/2025/11/17/technology/fraudsters-cryptocurrency-atms.html
-The Crypto Industry’s $28 Billion in ‘Dirty Money’; As President Trump has championed crypto and the industry has gone mainstream, funds from scammers and other criminal groups have flowed onto major crypto exchanges.; https://www.nytimes.com/2025/11/17/technology/crypto-exchanges-dirty-money.html
-How a Seattle Alt-Weekly Newspaper Became a Progressive Kingmaker; Endorsements from The Stranger have become a must-have for some politicians, who know to bring snacks to their meetings with the paper’s writers.; https://www.nytimes.com/2025/11/14/technology/progressive-newspaper-stranger-seattle.html
-What’s a Digital Passport and How Does It Work?; Apple joined Google this week in allowing travelers to add their passports to their cellphone “wallets.” As the holiday travel season nears, here’s what you need to know.; https://www.nytimes.com/2025/11/14/travel/digital-identification-travel.html
-Confused by the iPhone Pocket? That’s by Design.; Decades after their founders connected, Apple and Issey Miyake released a collection of phone pouches that have some people baffled. They hope it will inspire creativity.; https://www.nytimes.com/2025/11/14/style/iphone-pocket-apple-issey-miyake.html
-‘We could have asked ChatGPT’: students fight back over course taught by AI; https://www.theguardian.com/education/2025/nov/20/university-of-staffordshire-course-taught-in-large-part-by-ai-artificial-intelligence
-French authorities investigate alleged Holocaust denial posts on Elon Musk’s Grok AI; https://www.theguardian.com/technology/2025/nov/20/french-authorities-look-into-holocaust-denial-posts-elon-musk-grok-ai
-Cloudflare outage causes error messages across the internet; https://www.theguardian.com/technology/2025/nov/18/cloudflare-outage-causes-error-messages-across-the-internet
-‘We excel at every phase of AI’: Nvidia CEO quells Wall Street fears of AI bubble amid market selloff; https://www.theguardian.com/technology/2025/nov/19/nvidia-earning-report
-Buckingham Palace Christmas market: why tourists flocked there – and found just locked gates and big puddles; https://www.theguardian.com/technology/2025/nov/19/buckingham-palace-christmas-market-why-tourists-flocked-there-and-found-just-locked-gates-and-big-puddles
-Amazon vs Perplexity: the AI agent war has arrived; https://www.theguardian.com/technology/2025/nov/18/amazon-vs-perplexity-the-ai-agent-war-has-arrived
-What AI doesn’t know: we could be creating a global ‘knowledge collapse’ | Deepak Varuvel Dennison; https://www.theguardian.com/news/2025/nov/18/what-ai-doesnt-know-global-knowledge-collapse
-The best early Black Friday deals in the UK on the products we love, from coffee machines to heated throws; https://www.theguardian.com/thefilter/2025/nov/20/best-early-black-friday-deals-uk-2025-filter-tested
-How to avoid bad Black Friday laptop deals – and some of the best UK offers for 2025; https://www.theguardian.com/thefilter/2025/nov/20/best-black-friday-laptop-deals-uk-2025
-The 15 best tech gifts in the US, picked by a gadget reviewer who’s used hundreds; https://www.theguardian.com/thefilter-us/2025/nov/20/tech-gadget-gifts-ideas-guide
-How to avoid bad Black Friday TV deals – and some of the best UK offers for 2025; https://www.theguardian.com/thefilter/2025/nov/20/best-black-friday-tv-deals-uk-2025
+‘It’s going much too fast’: the inside story of the race to create the ultimate AI; https://www.theguardian.com/technology/ng-interactive/2025/dec/01/its-going-much-too-fast-the-inside-story-of-the-race-to-create-the-ultimate-ai
+‘It was extremely pornographic’: Cara Hunter on the deepfake video that nearly ended her political career; https://www.theguardian.com/society/ng-interactive/2025/dec/01/it-was-extremely-pornographic-cara-hunter-on-the-deepfake-video-that-nearly-ended-her-political-career
+ChatGPT-5 offers dangerous advice to mentally ill people, psychologists warn; https://www.theguardian.com/technology/2025/nov/30/chatgpt-dangerous-advice-mentally-ill-psychologists-openai
+How big tech is creating its own friendly media bubble to ‘win the narrative battle online’; https://www.theguardian.com/technology/2025/nov/29/big-tech-silicon-valley-ceo-media
+Virginia Democrat flips seat in state legislature by taking on datacenters; https://www.theguardian.com/us-news/2025/nov/30/virginia-democrat-state-legislature-datacenters
+James Cameron says AI actors are ‘horrifying to me’; https://www.theguardian.com/film/2025/dec/01/james-cameron-says-ai-actors-are-horrifying-to-me
+More than 1,000 Amazon workers warn rapid AI rollout threatens jobs and climate; https://www.theguardian.com/technology/2025/nov/28/amazon-ai-climate-change
+The 35-plus best US Cyber Monday tech deals on TVs, tablets, phones, smart watches and more; https://www.theguardian.com/thefilter-us/2025/nov/19/best-black-friday-cyber-monday-tech-deals
+The 29+ best US Black Friday and Cyber Monday travel deals on luggage, backpacks, travel adapters and more; https://www.theguardian.com/thefilter-us/2025/nov/18/best-black-friday-cyber-monday-travel-deals
+The best UK Cyber Monday and Black Friday deals on the products we love, from video doorbells to heated throws; https://www.theguardian.com/thefilter/2025/nov/27/best-black-friday-deals-uk-2025-filter-tested-recommended
+How to avoid bad Black Friday laptop deals – and some of the best UK offers for 2025; https://www.theguardian.com/thefilter/2025/nov/28/best-black-friday-laptop-deals-cyber-monday-uk-2025
+The question isn’t whether the AI bubble will burst – but what the fallout will be; https://www.theguardian.com/technology/2025/dec/01/ai-bubble-us-economy
+Xania Monet’s music is the stuff of nightmares. Thankfully her  AI ‘clankers’ will be limited to this cultural moment | Van Badham; https://www.theguardian.com/technology/commentisfree/2025/nov/21/artificial-intellenge-singer-xania-monet-music-robot-pop-star-cultural-moment
+Nvidia earnings: Wall Street sighs with relief after AI wave doesn’t crash; https://www.theguardian.com/technology/2025/nov/19/nvidia-earnings-ai-wall-street-relief
 UK firms can win a significant chunk of the AI chip market | John Browne; https://www.theguardian.com/technology/2025/nov/13/uk-firms-can-win-significant-chunk-ai-chip-market
-‘Musk is Tesla and Tesla is Musk’ – why investors are happy to pay him $1tn; https://www.theguardian.com/technology/2025/nov/07/tesla-why-us-investors-are-happy-to-pay-elon-musk-1-trillion
-Knee-jerk corporate responses to data leaks protect brands like Qantas — but consumers are getting screwed; https://www.theguardian.com/technology/2025/nov/02/corporate-responses-data-leaks-protecting-brands-not-consumers
-Once the AI bubble pops, we’ll all suffer. Could that be better than letting it grow unabated?; https://www.theguardian.com/technology/2025/oct/23/ai-bubble-economy-workers-wage-growth
-Roblox rolls out age-verification features in Australia as gaming platform insists child social media ban should not apply; https://www.theguardian.com/games/2025/nov/19/roblox-rolls-out-age-verification-features-in-australia-as-gaming-platform-insists-child-social-media-ban-should-not-apply
-Roblox to block children from talking to adult strangers after string of lawsuits; https://www.theguardian.com/games/2025/nov/18/roblox-facial-age-estimation-children-adults-chats-blocked
-Master System at 40: the truth about Sega’s most underrated console; https://www.theguardian.com/games/2025/nov/18/sega-master-system-nintendo-entertainment-system
-Call of Duty: Black Ops 7 review – hallucinogenic romp through dystopia is stupidly pleasurable; https://www.theguardian.com/games/2025/nov/14/call-of-duty-black-ops-7-review-playstation-xbox-pc
-What does my love for impossibly difficult video games say about me?; https://www.theguardian.com/games/2025/nov/12/what-does-my-love-for-impossibly-difficult-video-games-say-about-me
+‘Cool and quirky is part of our brand’: how New Zealand became a hothouse for indie games; https://www.theguardian.com/games/2025/dec/01/new-zealand-indie-game-developers
+My family’s excitement about Outer Worlds 2 was short-lived | Dominik Diamond; https://www.theguardian.com/games/2025/nov/28/my-familys-excitement-about-outer-worlds-2-was-short-lived-but-at-least-we-bonded-over-the-disappointment
+T​he era-defining Xbox 360 ​reimagined ​gaming​ and Microsoft never matched it; https://www.theguardian.com/games/2025/nov/26/how-the-xbox-360-almost-won-the-console-war
+Kirby Air Riders review – cute pink squishball challenges Mario for Nintendo racing supremacy; https://www.theguardian.com/games/2025/nov/26/kirby-air-riders-review-nintendo
+16 brilliant Christmas gifts for gamers; https://www.theguardian.com/games/2025/nov/25/16-brilliant-christmas-gifts-for-gamers
 Datacenters meet resistance over environmental concerns as AI boom spreads in Latin America; https://www.theguardian.com/technology/2025/nov/10/data-centers-latin-america
 An ex-Intel CEO’s mission to build a Christian AI: ‘hasten the coming of Christ’s return’; https://www.theguardian.com/technology/2025/oct/28/patrick-gelsinger-christian-ai-gloo-silicon-valley
 Trump says tech chiefs convinced him to call off troop ‘surge’ to San Francisco; https://www.theguardian.com/us-news/2025/oct/23/trump-san-francisco-troops-silicon-valley
 Inside tech billionaire Peter Thiel’s off-the-record lectures about the antichrist; https://www.theguardian.com/us-news/2025/oct/10/peter-thiel-lectures-antichrist
+The best robot vacuums in the UK to keep your home clean and dust free, tested; https://www.theguardian.com/thefilter/2024/nov/26/best-robot-vacuum-mop
+The seven best video doorbells tried and tested – and Ring isn’t top; https://www.theguardian.com/thefilter/2024/nov/14/the-8-best-video-doorbells-tried-and-tested
+The best air fryers, tried and tested for crisp and crunch; https://www.theguardian.com/thefilter/2025/mar/02/best-air-fryers
 Rule Breakers review – rousingly feelgood real life story of Afghan girls’ robotics team; https://www.theguardian.com/film/2025/nov/17/rule-breakers-review-afghan-girls-robotics-team-phoebe-waller-bridge
-Porn Play review – Ambika Mod excels as an academic undone by pornography addiction; https://www.theguardian.com/stage/2025/nov/14/porn-play-review-ambika-mod-royal-court-theatre-london
-Apple Watch SE 3 review: the bargain smartwatch for iPhone; https://www.theguardian.com/technology/2025/nov/04/apple-watch-se-3-review-bargain-smartwatch-iphone-screen-watchos-26
-Oakley Meta Vanguard review: fantastic AI running glasses linked to Garmin; https://www.theguardian.com/technology/2025/nov/03/oakley-meta-vanguard-review-fantastic-ai-running-glasses-linked-to-garmin
-White nationalist talking points and racial pseudoscience: welcome to Elon Musk’s Grokipedia; https://www.theguardian.com/technology/2025/nov/17/grokipedia-elon-musk-far-right-racist
-How Google’s DeepMind tool is ‘more quickly’ forecasting hurricane behavior; https://www.theguardian.com/technology/2025/nov/16/google-deepmind-hurricane-forecast
-Can OpenAI keep pace with industry’s soaring costs?; https://www.theguardian.com/technology/2025/nov/10/sam-altman-can-openai-profits-keep-pace
-Elon Musk makes himself far-right fixture after White House departure; https://www.theguardian.com/technology/2025/nov/08/elon-musk-global-far-right
+Foreign interference or opportunistic grifting: why are so many pro-Trump X accounts based in Asia?; https://www.theguardian.com/technology/2025/nov/27/pro-trump-x-twitter-accounts-based-in-asia
+‘It’s hell for us here’: Mumbai families suffer as datacentres keep the city hooked on coal; https://www.theguardian.com/technology/2025/nov/24/mumbai-datacentres-coal-air-pollution
+Meet the AI workers who tell their friends and family to stay away from AI; https://www.theguardian.com/technology/2025/nov/22/ai-workers-tell-family-stay-away
+Bro boost: women say their LinkedIn traffic increases if they pretend to be men; https://www.theguardian.com/technology/2025/nov/22/bro-boost-women-find-linkedin-traffic-drives-if-they-pretend-to-be-men

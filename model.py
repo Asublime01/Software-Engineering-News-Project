@@ -4,11 +4,18 @@ import os
 from dotenv import load_dotenv
 import feedparser
 import random
+import datetime
+import time
+
 
 load_dotenv()
 nyt_apiKey = os.getenv("NYT_API_KEY")
 thenews_apiKEY = os.getenv("thenews_apiKEY")
 headers = {"User-Agent": "Mozilla/5.0"}
+dateString = datetime.date.today()
+
+year, month, day = dateString.__str__().split("-")
+todays_date = [month, day, year]
 
 nyt_endpoint = f'https://api.nytimes.com/svc/topstories/v2/technology.json?api-key={nyt_apiKey}'
 
@@ -83,14 +90,31 @@ def get_random_news():
         
 
 def get_epic_news():
-    os.system("wget ")
+    data_list = []
+    os.system("wget https://raw.githubusercontent.com/EPIC-Campus-LPS/EPIC-News/refs/heads/main/news.csv")
     with open('news.csv', 'r+') as csvfile:
             
         reader = csv.reader(csvfile)
-
+        next(reader)
+        
+        
     # Iterate over each row in the CSV file
         for row in reader:
-            print(row) # Each row is a list of strings
+            month, day, year = row[2].split("/")
+            if int(month) < int(todays_date[0]) or int(day) < int(todays_date[1]) or int(year) < int(todays_date[2]):
+                continue # Get a new row 
+            else:
+                data_list.append(f"{row[0]} | {row[1]}")
+            
+    time.sleep(1)
+    os.system("rm news.csv")
+    return data_list
+
+
+
+
+
+
 
 
 

@@ -8,39 +8,39 @@ import model
 
 
 def update_display():
+    # -----------------------------------------------------------
+    # Combined display settings
+    # -----------------------------------------------------------
+    PANEL_W = 32
+    PANEL_H = 32
+    NUM_PANELS = 3
 
-    def display1():
-        # -----------------------------------------------------------
-        # Combined display settings
-        # -----------------------------------------------------------
-        PANEL_W = 32
-        PANEL_H = 32
-        NUM_PANELS = 3
+    WIDTH = PANEL_W * NUM_PANELS   # 64
+    HEIGHT = PANEL_H               # 32
+    
+    TITLE_HEIGHT = 12
+    SCROLL_HEIGHT = HEIGHT - TITLE_HEIGHT
 
-        WIDTH = PANEL_W * NUM_PANELS   # 64
-        HEIGHT = PANEL_H               # 32
+    geometry = piomatter.Geometry(
+        width=WIDTH,
+        height=HEIGHT,
+        n_addr_lines=4,
+        rotation=piomatter.Orientation.Normal
+    )
 
-        TITLE_HEIGHT = 12
-        SCROLL_HEIGHT = HEIGHT - TITLE_HEIGHT
+    # ===========================================================
+    # One framebuffer for the entire display
+    # ===========================================================
+    framebuffer = np.zeros((HEIGHT, WIDTH, 3), dtype=np.uint8)
 
-        geometry = piomatter.Geometry(
-            width=WIDTH,
-            height=HEIGHT,
-            n_addr_lines=4,
-            rotation=piomatter.Orientation.Normal
-        )
+    matrix = piomatter.PioMatter(
+        colorspace=piomatter.Colorspace.RGB888Packed,
+        pinout=piomatter.Pinout.Active3,
+        framebuffer=framebuffer,
+        geometry=geometry
+    )
 
-        # ===========================================================
-        # One framebuffer for the entire display
-        # ===========================================================
-        framebuffer = np.zeros((HEIGHT, WIDTH, 3), dtype=np.uint8)
-
-        matrix = piomatter.PioMatter(
-            colorspace=piomatter.Colorspace.RGB888Packed,
-            pinout=piomatter.Pinout.Active3,
-            framebuffer=framebuffer,
-            geometry=geometry
-        )
+    def display1(WIDTH, SCROLL_HEIGHT, TITLE_HEIGHT, HEIGHT):
         #Prepare scrolling text------------------------------------------------
         title_text = "EPIC News"
         text = model.get_epic_news()  # the message to scroll
@@ -86,41 +86,10 @@ def update_display():
             matrix.show()
             time.sleep(scroll_speed)
 
-    def display2():
-        # -----------------------------------------------------------
-        # Combined display settings
-        # -----------------------------------------------------------
-        PANEL_W = 32
-        PANEL_H = 32
-        NUM_PANELS = 3
-    
-        WIDTH = PANEL_W * NUM_PANELS   # 64
-        HEIGHT = PANEL_H               # 32
-        
-        TITLE_HEIGHT = 12
-        SCROLL_HEIGHT = HEIGHT - TITLE_HEIGHT
-    
-        geometry = piomatter.Geometry(
-            width=WIDTH,
-            height=HEIGHT,
-            n_addr_lines=4,
-            rotation=piomatter.Orientation.Normal
-        )
-    
-        # ===========================================================
-        # One framebuffer for the entire display
-        # ===========================================================
-        framebuffer = np.zeros((HEIGHT, WIDTH, 3), dtype=np.uint8)
-    
-        matrix = piomatter.PioMatter(
-            colorspace=piomatter.Colorspace.RGB888Packed,
-            pinout=piomatter.Pinout.Active3,
-            framebuffer=framebuffer,
-            geometry=geometry
-        )
+    def display2(WIDTH, SCROLL_HEIGHT, TITLE_HEIGHT, HEIGHT):
         #Prepare scrolling text------------------------------------------------
         title_text = "Latest Comp-Sci News"
-        text = model.get_random_news()  # the message to scroll
+        text = model.get_random_news  # the message to scroll
         font_TITLE = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 12)
         font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 12)
 
@@ -164,12 +133,12 @@ def update_display():
             time.sleep(scroll_speed)
     
     while True:
-        display1()
+        display1(WIDTH, SCROLL_HEIGHT, TITLE_HEIGHT, HEIGHT)
         time.sleep(0.5)
-        display1()
+        display1(WIDTH, SCROLL_HEIGHT, TITLE_HEIGHT, HEIGHT)
         time.sleep(0.5)
-        display2()
+        display2(WIDTH, SCROLL_HEIGHT, TITLE_HEIGHT, HEIGHT)
         time.sleep(0.5)
-        display2()
+        display2(WIDTH, SCROLL_HEIGHT, TITLE_HEIGHT, HEIGHT)
         time.sleep(0.5)
 

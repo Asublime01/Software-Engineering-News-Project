@@ -1,23 +1,23 @@
-Better Than JSON; https://aloisdeniel.com/blog/better-than-json
-React and Remix Choose Different Futures; https://laconicwit.com/react-and-remix-choose-different-futures/
-Intel could return to Apple computers in 2027; https://www.theverge.com/news/832366/intel-apple-m-chip-low-end-processor
+Beej's Guide to Learning Computer Science; https://beej.us/guide/bglcs/html/split/
+What will enter the public domain in 2026?; https://publicdomainreview.org/features/entering-the-public-domain/2026/
+Reverse math shows why hard problems are hard; https://www.quantamagazine.org/reverse-mathematics-illuminates-why-hard-problems-are-hard-20251201/
+Around The World, Part 27: Planting trees; https://frozenfractal.com/blog/2025/11/28/around-the-world-27-planting-trees/
+Arcee Trinity Mini: US-Trained Moe Model; https://www.arcee.ai/blog/the-trinity-manifesto?src=hn
+AI agents find $4.6M in blockchain smart contract exploits; https://red.anthropic.com/2025/smart-contracts/
+Last Week on My Mac: Losing confidence; https://eclecticlight.co/2025/11/30/last-week-on-my-mac-losing-confidence/
+John Giannandrea to retire from Apple; https://www.apple.com/newsroom/2025/12/john-giannandrea-to-retire-from-apple/
+Mozilla's latest quagmire; https://rubenerd.com/mozillas-latest-quagmire/
+Instagram chief orders staff back to the office five days a week in 2026; https://www.businessinsider.com/instagram-chief-adam-mosseri-announces-five-day-office-return-2025-12
+Why I stopped using JSON for my APIs; https://aloisdeniel.com/blog/better-than-json
 Durin is a library for reading and writing the Dwarf debugging format; https://github.com/tmcgilchrist/durin
-High-income job losses are cooling housing demand; https://jbrec.com/insights/job-growth-housing-demand-metro-analysis-2026/
 Ghostty compiled to WASM with xterm.js API compatibility; https://github.com/coder/ghostty-web
-Response to "Ruby Is Not a Serious Programming Language"; https://robbyonrails.com/articles/2025/12/01/why-so-serious/
 Better Auth (YC X25) Is Hiring; https://www.ycombinator.com/companies/better-auth/jobs/eKk5nLt-developer-relation-engineer
-ImAnim: Modern animation capabilities to ImGui applications; https://github.com/soufianekhiat/ImAnim
 Ask HN: Who is hiring? (December 2025); https://news.ycombinator.com/item?id=46108941
 Ask HN: Who wants to be hired? (December 2025); https://news.ycombinator.com/item?id=46108940
 DeepSeek-v3.2: Pushing the frontier of open large language models [pdf]; https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf
 Google unkills JPEG XL?; https://tonisagrista.com/blog/2025/google-unkills-jpegxl/
-WordPress plugin quirk resulted in UK Gov OBR Budget leak [pdf]; https://obr.uk/docs/dlm_uploads/01122025-Investigation-into-November-2025-EFO-publication-error.pdf
-The Penicillin Myth; https://www.asimov.press/p/penicillin-myth
-Cartographers Have Been Hiding Covert Illustrations Inside of Switzerland's Maps; https://eyeondesign.aiga.org/for-decades-cartographers-have-been-hiding-covert-illustrations-inside-of-switzerlands-official-maps/
-A vector graphics workstation from the 70s; https://justanotherelectronicsblog.com/?p=1429
-Why xor eax, eax?; https://xania.org/202512/01-xor-eax-eax
-Self-hosting a Matrix server for 5 years; https://yaky.dev/2025-11-30-self-hosting-matrix/
-Games using anti-cheats and their compatibility with GNU/Linux or Wine/Proton; https://areweanticheatyet.com/
+Google, Nvidia, and OpenAI; https://stratechery.com/2025/google-nvidia-and-openai/
+Ask HN: Quality of recent gens of Dell/Lenovo laptops worse than 10 years ago?; https://news.ycombinator.com/item?id=46108071
 College Students Flock to a New Major: A.I.; At M.I.T., a new program called “artificial intelligence and decision-making” is now the second-most-popular undergraduate major.; https://www.nytimes.com/2025/12/01/technology/college-computer-science-ai-boom.html
 Silicon Valley’s Man in the White House Is Benefiting Himself and His Friends; David Sacks, the Trump administration’s A.I. and crypto czar, has helped formulate policies that aid his Silicon Valley friends and many of his own tech investments.; https://www.nytimes.com/2025/11/30/technology/david-sacks-white-house-profits.html
 The Writer Who Dared Criticize Silicon Valley; Paulina Borsook’s “Cyberselfish,” which offered dire predictions about the tech world’s love for libertarianism, is finding fans. It only took 25 years.; https://www.nytimes.com/2025/11/27/technology/writer-silicon-valley-criticism.html
@@ -53,10 +53,10 @@ How big tech is creating its own friendly media bubble to ‘win the narrative b
 Virginia Democrat flips seat in state legislature by taking on datacenters; https://www.theguardian.com/us-news/2025/nov/30/virginia-democrat-state-legislature-datacenters
 James Cameron says AI actors are ‘horrifying to me’; https://www.theguardian.com/film/2025/dec/01/james-cameron-says-ai-actors-are-horrifying-to-me
 More than 1,000 Amazon workers warn rapid AI rollout threatens jobs and climate; https://www.theguardian.com/technology/2025/nov/28/amazon-ai-climate-change
-The 35-plus best US Cyber Monday tech deals on TVs, tablets, phones, smart watches and more; https://www.theguardian.com/thefilter-us/2025/nov/19/best-black-friday-cyber-monday-tech-deals
-The 29+ best US Black Friday and Cyber Monday travel deals on luggage, backpacks, travel adapters and more; https://www.theguardian.com/thefilter-us/2025/nov/18/best-black-friday-cyber-monday-travel-deals
-The best UK Cyber Monday and Black Friday deals on the products we love, from video doorbells to heated throws; https://www.theguardian.com/thefilter/2025/nov/27/best-black-friday-deals-uk-2025-filter-tested-recommended
-How to avoid bad Black Friday laptop deals – and some of the best UK offers for 2025; https://www.theguardian.com/thefilter/2025/nov/28/best-black-friday-laptop-deals-cyber-monday-uk-2025
+The 110 very best Cyber Monday deals in the US, curated and vetted; https://www.theguardian.com/thefilter-us/2025/nov/18/best-black-friday-cyber-monday-deals
+The 33+ best US Cyber Monday travel deals on luggage, backpacks, travel adapters and more; https://www.theguardian.com/thefilter-us/2025/nov/18/best-black-friday-cyber-monday-travel-deals
+The 28 gifts and treats Filter US writers are loving this holiday season; https://www.theguardian.com/thefilter-us/2025/dec/01/favorite-holiday-christmas-gifts-ideas
+The 35+ best US Cyber Monday tech deals on TVs, tablets, phones, smart watches and more; https://www.theguardian.com/thefilter-us/2025/nov/19/best-black-friday-cyber-monday-tech-deals
 The question isn’t whether the AI bubble will burst – but what the fallout will be; https://www.theguardian.com/technology/2025/dec/01/ai-bubble-us-economy
 Xania Monet’s music is the stuff of nightmares. Thankfully her  AI ‘clankers’ will be limited to this cultural moment | Van Badham; https://www.theguardian.com/technology/commentisfree/2025/nov/21/artificial-intellenge-singer-xania-monet-music-robot-pop-star-cultural-moment
 Nvidia earnings: Wall Street sighs with relief after AI wave doesn’t crash; https://www.theguardian.com/technology/2025/nov/19/nvidia-earnings-ai-wall-street-relief
@@ -74,7 +74,7 @@ The best robot vacuums in the UK to keep your home clean and dust free, tested; 
 The seven best video doorbells tried and tested – and Ring isn’t top; https://www.theguardian.com/thefilter/2024/nov/14/the-8-best-video-doorbells-tried-and-tested
 The best air fryers, tried and tested for crisp and crunch; https://www.theguardian.com/thefilter/2025/mar/02/best-air-fryers
 Rule Breakers review – rousingly feelgood real life story of Afghan girls’ robotics team; https://www.theguardian.com/film/2025/nov/17/rule-breakers-review-afghan-girls-robotics-team-phoebe-waller-bridge
+Age of the ‘scam state’: how an illicit, multibillion-dollar industry has taken root in south-east Asia; https://www.theguardian.com/technology/2025/dec/02/scam-state-multi-billion-dollar-industry-south-east-asia
 Foreign interference or opportunistic grifting: why are so many pro-Trump X accounts based in Asia?; https://www.theguardian.com/technology/2025/nov/27/pro-trump-x-twitter-accounts-based-in-asia
 ‘It’s hell for us here’: Mumbai families suffer as datacentres keep the city hooked on coal; https://www.theguardian.com/technology/2025/nov/24/mumbai-datacentres-coal-air-pollution
 Meet the AI workers who tell their friends and family to stay away from AI; https://www.theguardian.com/technology/2025/nov/22/ai-workers-tell-family-stay-away
-Bro boost: women say their LinkedIn traffic increases if they pretend to be men; https://www.theguardian.com/technology/2025/nov/22/bro-boost-women-find-linkedin-traffic-drives-if-they-pretend-to-be-men

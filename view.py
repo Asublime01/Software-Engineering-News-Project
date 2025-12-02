@@ -42,10 +42,10 @@ def do_the_thing(bool, num_run):
 
     if bool == 1:
     #Prepare scrolling text------------------------------------------------
-        title_text = "EPIC News"
+        title_text = "Attention!!"
         text = model.get_epic_news()  # the message to scroll
     elif bool == 2:
-        title_text = "Latest Comp-Sci News"
+        title_text = "CS News"
         text = model.get_random_news()
     font_TITLE = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 12)
     font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 12)

@@ -10,7 +10,7 @@ import time
 
 load_dotenv()
 nyt_apiKey = os.getenv("NYT_API_KEY")
-thenews_apiKEY = os.getenv("thenews_apiKEY")
+
 headers = {"User-Agent": "Mozilla/5.0"}
 dateString = datetime.date.today()
 
@@ -108,7 +108,9 @@ def get_epic_news():
             
     time.sleep(1)
     os.system("rm news.csv")
-    return "Hello!!"
+    return ''.join([str(item) for item in data_list])
+
+
 
 
 

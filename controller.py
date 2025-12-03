@@ -13,6 +13,8 @@ import time
 
 
 
+print("Ran controller!!!")
+
 
 def send_newsletter():
     sender_email = "mr.cryan225@gmail.com"

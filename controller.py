@@ -5,8 +5,11 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 import model
-import datetime
+from datetime import datetime
 import view
+import pytz
+import time
+
 
 
 
@@ -52,4 +55,40 @@ def send_newsletter():
     except Exception as e:
         print(f"Error sending email: {e}")
 
-view.update_display()
+weekdays = [0, 1, 2, 3, 4]
+mountain_tz = pytz.timezone("America/Denver")
+
+
+email_sent = False
+hour_last_fetched = 7
+
+while True:
+    current_time = datetime.now(mountain_tz)
+    hour = current_time.hour
+    minute = current_time.minute
+    weekday = current_time.weekday()
+
+    if weekday in weekdays:
+        if hour == 8 and minute == 0:
+            if not email_sent:
+                send_newsletter()
+                email_sent = True
+                print("email sent")
+        else:
+            # Reset after leaving the minute
+            email_sent = False
+        
+
+        if hour > hour_last_fetched: #Refresh news every hour
+            hour_last_fetched = hour
+            model.Refresh_News()
+            print("News Refreshed...")
+
+        print("Display Updated...")
+        view.update_display()
+        
+
+    time.sleep(1)
+
+
+    

@@ -7,7 +7,7 @@ import model
 
 
 
-def do_the_thing(bool, num_run):
+def do_the_thing(bool, num_run): #Main function for running both displays
     # -----------------------------------------------------------
     # Combined display settings
     # -----------------------------------------------------------
@@ -40,11 +40,11 @@ def do_the_thing(bool, num_run):
         geometry=geometry
     )
 
-    if bool == 1:
+    if bool == 1: #Display EPIC News
     #Prepare scrolling text------------------------------------------------
         title_text = "Attention!!"
         text = model.get_epic_news()  # the message to scroll
-    elif bool == 2:
+    elif bool == 2: #Display CS News
         title_text = "CS News"
         text = model.get_random_news()
     font_TITLE = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 12)
@@ -81,9 +81,8 @@ def do_the_thing(bool, num_run):
 
     
 def update_display():
-    while True:
-        do_the_thing(1, 2)
-        do_the_thing(2, 2)
+    do_the_thing(1, 2)
+    do_the_thing(2, 2)
         
 
         

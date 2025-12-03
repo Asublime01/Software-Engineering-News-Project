@@ -8,51 +8,54 @@ import datetime
 import time
 
 
-load_dotenv()
-nyt_apiKey = os.getenv("NYT_API_KEY")
-
-headers = {"User-Agent": "Mozilla/5.0"}
 dateString = datetime.date.today()
-
 year, month, day = dateString.__str__().split("-")
 todays_date = [month, day, year]
 
-nyt_endpoint = f'https://api.nytimes.com/svc/topstories/v2/technology.json?api-key={nyt_apiKey}'
+def Refresh_News():
+    load_dotenv()
+    nyt_apiKey = os.getenv("NYT_API_KEY")
 
-guardian_url = 'https://www.theguardian.com/technology/rss' 
-hacker_news = 'https://hnrss.org/frontpage'
-
-guardian_response = requests.get(guardian_url, headers=headers)
-guardian_feed = feedparser.parse(guardian_response.text)
-responseNYT = requests.get(nyt_endpoint)
-
-hacker_response = requests.get(hacker_news, headers=headers)
-hacker_feed = feedparser.parse(hacker_response.text)
-
-
-
-
-
-
-
-responseNYT_parsed = responseNYT.json()
-
-
-
-nyt_data = responseNYT_parsed["results"]
-
-with open("News.txt", "w") as file:
-    for entry in hacker_feed.entries:
-        file.write(f"{entry.title}; {entry.link}")
-        file.write("\n")
+    headers = {"User-Agent": "Mozilla/5.0"}
     
-    for result in nyt_data:
-        file.write(f"{result['title']}; {result['abstract']}; {result['url']}")
-        file.write("\n")
-       
-    for entry in guardian_feed.entries:
-        file.write(f"{entry.title}; {entry.link}")
-        file.write("\n")
+    
+
+    nyt_endpoint = f'https://api.nytimes.com/svc/topstories/v2/technology.json?api-key={nyt_apiKey}'
+
+    guardian_url = 'https://www.theguardian.com/technology/rss' 
+    hacker_news = 'https://hnrss.org/frontpage'
+
+    guardian_response = requests.get(guardian_url, headers=headers)
+    guardian_feed = feedparser.parse(guardian_response.text)
+    responseNYT = requests.get(nyt_endpoint)
+
+    hacker_response = requests.get(hacker_news, headers=headers)
+    hacker_feed = feedparser.parse(hacker_response.text)
+
+
+
+
+
+
+
+    responseNYT_parsed = responseNYT.json()
+
+
+
+    nyt_data = responseNYT_parsed["results"]
+
+    with open("News.txt", "w") as file:
+        for entry in hacker_feed.entries:
+            file.write(f"{entry.title}; {entry.link}")
+            file.write("\n")
+
+        for result in nyt_data:
+            file.write(f"{result['title']}; {result['abstract']}; {result['url']}")
+            file.write("\n")
+
+        for entry in guardian_feed.entries:
+            file.write(f"{entry.title}; {entry.link}")
+            file.write("\n")
 
 
 

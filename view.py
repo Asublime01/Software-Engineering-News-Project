@@ -44,6 +44,9 @@ def do_the_thing(bool, num_run): #Main function for running both displays
     #Prepare scrolling text------------------------------------------------
         title_text = "Attention!!"
         text = model.get_epic_news()  # the message to scroll
+        if text == 2:
+            title_text = "CS News"
+            text = model.get_random_news()
     elif bool == 2: #Display CS News
         title_text = "CS News"
         text = model.get_random_news()

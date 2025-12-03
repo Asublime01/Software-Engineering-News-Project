@@ -112,7 +112,7 @@ def get_epic_news():
     time.sleep(1)
     os.system("rm news.csv")
     if len(data_list) == 0:
-        return get_random_news()
+        return 2
     else:
         return ''.join([str(item) for item in data_list])
 

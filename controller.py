@@ -61,6 +61,7 @@ mountain_tz = pytz.timezone("America/Denver")
 
 email_sent = False
 hour_last_fetched = 7
+view.update_display()
 
 while True:
     current_time = datetime.now(mountain_tz)
@@ -84,8 +85,8 @@ while True:
             model.Refresh_News()
             print("News Refreshed...")
 
-        print("Display Updated...")
-        view.update_display()
+       
+        
         
 
     time.sleep(1)

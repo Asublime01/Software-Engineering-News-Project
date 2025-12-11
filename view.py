@@ -84,9 +84,8 @@ def do_the_thing(bool, num_run): #Main function for running both displays
 
     
 def update_display():
-    while True:
-        do_the_thing(1, 2)
-        do_the_thing(2, 2)
+    do_the_thing(1, 2)
+    do_the_thing(2, 2)
         
 
         
